@@ -59,5 +59,15 @@ namespace Tales_Of_Rizal
             Elfilix elfilix = new Elfilix();
             elfilix.Show();
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

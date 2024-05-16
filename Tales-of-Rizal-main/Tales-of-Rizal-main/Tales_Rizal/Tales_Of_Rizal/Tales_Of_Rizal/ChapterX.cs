@@ -10,23 +10,34 @@ using System.Windows.Forms;
 
 namespace Tales_Of_Rizal
 {
-    public partial class Elfilix : Form
+    public partial class ChapterX : Form
     {
-        public Elfilix()
+        public ChapterX()
         {
             InitializeComponent();
         }
 
-        private void Elfilix_Load(object sender, EventArgs e)
+        private void label1_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void ChapterX_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+
+            Chapter chapter = new Chapter();
+            chapter.Show();
         }
 
         private void HomeButton_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Dashboard dashboard = new Dashboard();
-            dashboard.Show();
         }
     }
 }

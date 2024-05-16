@@ -40,23 +40,23 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(52, 32);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox1.Location = new System.Drawing.Point(74, 11);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(399, 604);
+            this.pictureBox1.Size = new System.Drawing.Size(534, 728);
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.DarkGoldenrod;
-            this.label1.Font = new System.Drawing.Font("Impact", 48F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Impact", 72F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(610, 40);
-            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label1.Location = new System.Drawing.Point(641, 51);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(383, 80);
+            this.label1.Size = new System.Drawing.Size(704, 145);
             this.label1.TabIndex = 1;
             this.label1.Text = "Tales of Rizal";
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -65,10 +65,10 @@
             // 
             this.BackgroundBtn.BackColor = System.Drawing.Color.Black;
             this.BackgroundBtn.ForeColor = System.Drawing.Color.White;
-            this.BackgroundBtn.Location = new System.Drawing.Point(614, 214);
-            this.BackgroundBtn.Margin = new System.Windows.Forms.Padding(2);
+            this.BackgroundBtn.Location = new System.Drawing.Point(819, 263);
+            this.BackgroundBtn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.BackgroundBtn.Name = "BackgroundBtn";
-            this.BackgroundBtn.Size = new System.Drawing.Size(352, 85);
+            this.BackgroundBtn.Size = new System.Drawing.Size(469, 105);
             this.BackgroundBtn.TabIndex = 2;
             this.BackgroundBtn.Text = "BACKGROUND";
             this.BackgroundBtn.UseVisualStyleBackColor = false;
@@ -78,10 +78,10 @@
             // 
             this.NoliBtn.BackColor = System.Drawing.Color.Black;
             this.NoliBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.NoliBtn.Location = new System.Drawing.Point(614, 335);
-            this.NoliBtn.Margin = new System.Windows.Forms.Padding(2);
+            this.NoliBtn.Location = new System.Drawing.Point(819, 412);
+            this.NoliBtn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.NoliBtn.Name = "NoliBtn";
-            this.NoliBtn.Size = new System.Drawing.Size(352, 85);
+            this.NoliBtn.Size = new System.Drawing.Size(469, 105);
             this.NoliBtn.TabIndex = 3;
             this.NoliBtn.Text = "NOLI ME TANGERE";
             this.NoliBtn.UseVisualStyleBackColor = false;
@@ -91,10 +91,10 @@
             // 
             this.ElfiliBtn.BackColor = System.Drawing.Color.Black;
             this.ElfiliBtn.ForeColor = System.Drawing.Color.White;
-            this.ElfiliBtn.Location = new System.Drawing.Point(614, 457);
-            this.ElfiliBtn.Margin = new System.Windows.Forms.Padding(2);
+            this.ElfiliBtn.Location = new System.Drawing.Point(819, 562);
+            this.ElfiliBtn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.ElfiliBtn.Name = "ElfiliBtn";
-            this.ElfiliBtn.Size = new System.Drawing.Size(352, 85);
+            this.ElfiliBtn.Size = new System.Drawing.Size(469, 105);
             this.ElfiliBtn.TabIndex = 4;
             this.ElfiliBtn.Text = "EL FILIBUSTERISMO";
             this.ElfiliBtn.UseVisualStyleBackColor = false;
@@ -102,18 +102,20 @@
             // 
             // Dashboard
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkKhaki;
-            this.ClientSize = new System.Drawing.Size(1105, 609);
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(1471, 740);
             this.Controls.Add(this.ElfiliBtn);
             this.Controls.Add(this.NoliBtn);
             this.Controls.Add(this.BackgroundBtn);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
-            this.Margin = new System.Windows.Forms.Padding(2);
-            this.MaximumSize = new System.Drawing.Size(1121, 648);
-            this.MinimumSize = new System.Drawing.Size(1121, 648);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.MaximumSize = new System.Drawing.Size(1489, 787);
+            this.MinimumSize = new System.Drawing.Size(1489, 787);
             this.Name = "Dashboard";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
