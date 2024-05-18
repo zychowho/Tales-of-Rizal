@@ -39,3 +39,4 @@ C:\Users\63915\Documents\GitHub\Tales-of-Rizal\Tales-of-Rizal-main\Tales-of-Riza
 C:\Users\63915\Documents\GitHub\Tales-of-Rizal\Tales-of-Rizal-main\Tales-of-Rizal-main\Tales_Rizal\Tales_Of_Rizal\Tales_Of_Rizal\obj\Debug\Tales_Of_Rizal.ChapterX.resources
 C:\Users\63915\Documents\GitHub\Tales-of-Rizal\Tales-of-Rizal-main\Tales-of-Rizal-main\Tales_Rizal\Tales_Of_Rizal\Tales_Of_Rizal\obj\Debug\Tales_Of_Rizal.CharX.resources
 C:\Users\63915\Documents\GitHub\Tales-of-Rizal\Tales-of-Rizal-main\Tales-of-Rizal-main\Tales_Rizal\Tales_Of_Rizal\Tales_Of_Rizal\obj\Debug\Tales_Of_Rizal.Chapter.resources
+C:\Users\63915\Documents\GitHub\Tales-of-Rizal\Tales-of-Rizal-main\Tales-of-Rizal-main\Tales_Rizal\Tales_Of_Rizal\Tales_Of_Rizal\obj\Debug\Tales_Of_Rizal.Chapterr.resources

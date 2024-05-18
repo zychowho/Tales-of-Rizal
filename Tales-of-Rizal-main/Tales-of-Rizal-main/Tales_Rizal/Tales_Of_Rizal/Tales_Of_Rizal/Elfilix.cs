@@ -28,5 +28,10 @@ namespace Tales_Of_Rizal
             Dashboard dashboard = new Dashboard();
             dashboard.Show();
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

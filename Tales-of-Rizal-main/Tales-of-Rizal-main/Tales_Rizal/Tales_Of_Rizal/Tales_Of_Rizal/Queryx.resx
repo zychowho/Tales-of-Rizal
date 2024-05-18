@@ -118,31 +118,20 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="label2.Text" xml:space="preserve">
-    <value>Dr. José Protacio Rizal Mercado y Alonzo Realonda, born in 
-1861, was a multifaceted Filipino nationalist who left an 
-indelible mark on his country's history.  Rizal, a brilliant 
-polymath, excelled in medicine, writing, and the arts.  
-His early education instilled in him a deep love for his 
-homeland and a growing awareness of the social 
-injustices Filipinos faced under Spanish colonial rule. 
-This fueled his determination to advocate for 
-peaceful political and social reforms.
+    <value>
+"Noli Me Tangere" ay isang nobelang isinulat ni Jose Rizal. Ito ay 
+naglalarawan sa buhay sa Pilipinas noong panahon ng kolonyalismong 
+Kastila. Ang kuwento ay nagtatampok kay Crisostomo Ibarra, isang 
+binatang Pilipino na bumalik mula sa Europa upang makipag-ugnayan 
+sa lipunan at mangarap ng pagbabago. Sa kanyang pagbabalik,
+ nasaksihan niya ang mga katiwalian at pang-aabuso ng mga 
+Kastila sa mga Pilipino.
 
-Rizal's writings, particularly the novels "Noli Me Tángere" 
-(Touch Me Not) and "El Filibusterismo" (The Reign of Greed), 
-became powerful tools for awakening Filipino national 
-consciousness. These novels exposed the abuses of the 
-Spanish colonial system and the plight of the Filipino people.  
-Rizal's advocacy for reform, however, was met with 
-suspicion and hostility from the Spanish authorities.  His 
-calls for change were ultimately seen as a threat, leading to his 
-tragic execution in 1896.  Despite this, Rizal's legacy as a 
-national hero and symbol of peaceful resistance continues to 
-inspire Filipinos to this day.
-
-
-
-</value>
+ Ang nobelang ito ay naglalaman ng mga tema ng pag-ibig, 
+pagkakapantay-pantay, at paghihiganti. Ang "Noli Me Tangere" 
+ay isang mahalagang bahagi ng panitikang Pilipino
+ at naglalarawan ng mga suliranin at pangarap ng mga Pilipino 
+noong panahon ng kolonyalismong Kastila.</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="$this.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
