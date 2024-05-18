@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{FA0A39BD-2B99-4E70-822F-40B78B743D00}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Tales_Of_Rizal</RootNamespace>
+    <AssemblyName>Tales_Of_Rizal</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Background.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Background.Designer.cs">
+      <DependentUpon>Background.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Chapter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Chapter.Designer.cs">
+      <DependentUpon>Chapter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Chapterr.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Chapterr.Designer.cs">
+      <DependentUpon>Chapterr.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Chapters.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Chapters.Designer.cs">
+      <DependentUpon>Chapters.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChapterX.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChapterX.Designer.cs">
+      <DependentUpon>ChapterX.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CharX.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CharX.Designer.cs">
+      <DependentUpon>CharX.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dashboard.Designer.cs">
+      <DependentUpon>Dashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Elfilix.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Elfilix.Designer.cs">
+      <DependentUpon>Elfilix.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Queryx.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Queryx.Designer.cs">
+      <DependentUpon>Queryx.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Background.resx">
+      <DependentUpon>Background.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Chapter.resx">
+      <DependentUpon>Chapter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Chapterr.resx">
+      <DependentUpon>Chapterr.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Chapters.resx">
+      <DependentUpon>Chapters.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChapterX.resx">
+      <DependentUpon>ChapterX.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CharX.resx">
+      <DependentUpon>CharX.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dashboard.resx">
+      <DependentUpon>Dashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Elfilix.resx">
+      <DependentUpon>Elfilix.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Queryx.resx">
+      <DependentUpon>Queryx.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
